@@ -4,7 +4,6 @@ if game.PlaceId == 5411459567 then
     repeat task.wait(1) until game.Workspace.Message
 end
 _G.MinTimer = 60
-game:GetService("RunService"):Set3dRenderingEnabled(false)
 
 local function notify(text)
     game.StarterGui:SetCore("SendNotification", {
@@ -16,6 +15,7 @@ end
 
 if game.GameId == 578392296 then
     if game.PlaceId ~= 5411459567 then
+        game:GetService("RunService"):Set3dRenderingEnabled(false)
         notify("Joining AFK World")
         syn.queue_on_teleport(
             'loadstring(game:HttpGet("https://raw.githubusercontent.com/Etoez/Roblog/main/ABA.lua", true))()')
