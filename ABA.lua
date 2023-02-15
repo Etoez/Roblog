@@ -1,5 +1,5 @@
 game:GetService("Players").PlayerAdded:Wait()
-task.wait(1)
+task.wait(3)
 if game.PlaceId == 5411459567 then
     repeat task.wait(1) until game.Workspace.Message
 end
