@@ -1,4 +1,5 @@
 game:GetService("Players").PlayerAdded:Wait()
+game:GetService("RunService"):Set3dRenderingEnabled(false)
 task.wait(5)
 if game.PlaceId == 5411459567 then
     repeat task.wait(1) until game.Workspace.Message
