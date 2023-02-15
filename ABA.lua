@@ -15,7 +15,6 @@ end
 
 if game.GameId == 578392296 then
     if game.PlaceId ~= 5411459567 then
-        game:GetService("RunService"):Set3dRenderingEnabled(false)
         notify("Joining AFK World")
         syn.queue_on_teleport(
             'loadstring(game:HttpGet("https://raw.githubusercontent.com/Etoez/Roblog/main/ABA.lua", true))()')
