@@ -17,7 +17,7 @@ if game.GameId == 578392296 then
     if game.PlaceId ~= 5411459567 then
         notify("Joining AFK World")
         syn.queue_on_teleport(
-            'loadstring(game:HttpGet("https://raw.githubusercontent.com/RZiln/GayBloxScripts/master/ABA/main.lua", true))()')
+            'loadstring(game:HttpGet("https://raw.githubusercontent.com/Etoez/Roblog/main/ABA.lua", true))()')
         game:GetService('TeleportService'):Teleport(5411459567)
     end
     notify("AFK Hop running")
@@ -35,13 +35,13 @@ if game.GameId == 578392296 then
         notify("Server Hopping")
         task.wait(1)
         syn.queue_on_teleport(
-            'loadstring(game:HttpGet("https://raw.githubusercontent.com/RZiln/GayBloxScripts/master/ABA/main.lua", true))()')
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RZiln/GayBloxScripts/master/ABA/ServerHop.lua", true))()
+            'loadstring(game:HttpGet("https://raw.githubusercontent.com/Etoez/Roblog/main/ABA.lua", true))()')
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Etoez/Roblog/main/ServerHop.lua", true))()
     else
         notify("Server Hopping")
         syn.queue_on_teleport(
-            'loadstring(game:HttpGet("https://raw.githubusercontent.com/RZiln/GayBloxScripts/master/ABA/main.lua", true))()')
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RZiln/GayBloxScripts/master/ABA/ServerHop.lua", true))()
+            'loadstring(game:HttpGet("https://raw.githubusercontent.com/Etoez/Roblog/main/ABA.lua", true))()')
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Etoez/Roblog/main/ServerHop.lua", true))()
     end
 
 end
